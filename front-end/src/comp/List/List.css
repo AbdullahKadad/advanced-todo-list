@@ -1,0 +1,43 @@
+h2{
+    margin-top: 40px;
+    color: #ffffff;
+}
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid #f3d060;
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+.task p{
+    max-width: 80%;
+    overflow-x: auto;
+}
+.task button{
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #181818;
+}
+.edit{
+    border: 2px solid #5EB0E5;
+    color:#5EB0E5;
+}
+.del{
+    border: 2px solid #BA0C2E;
+    color:#BA0C2E;
+}
+.input{
+    width: 90%;
+    background-color:#282828;
+    border: 1px solid #404040;
+    padding: 10px;
+    border-radius: 15px;
+    color: #ffffff;
+}
+.form input::placeholder{
+    color: #f3d060;
+}

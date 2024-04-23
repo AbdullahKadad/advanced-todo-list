@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+  background-color: #181818;
+  min-height: 100vh;
+}
+.con {
+  width: 80%;
+  margin: auto;
+  padding: 50px 0;
+}
+h1 {
+  color: #f3d060;
+}
